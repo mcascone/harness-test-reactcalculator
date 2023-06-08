@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_harness_test_reactcalculator_1686238642178-push-trigger-input-set
+  identifier: Build_harness_test_reactcalculator_1686238642178pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: cert01
+  pipeline:
+    identifier: Build_harness_test_reactcalculator_1686238642178
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
